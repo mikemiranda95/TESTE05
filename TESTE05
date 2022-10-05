@@ -34,7 +34,7 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://https://bancocarrefour--homol.sandbox.my.salesforce.com',
+			'https://bancocarrefour--homol.sandbox.my.salesforce.com',
 			'https://homol-bancocarrefour.cs167.force.com',
 			gslbBaseURL,
 			'00D6u0000008hql',
@@ -52,7 +52,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://https://bancocarrefour--homol.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://bancocarrefour--homol.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
